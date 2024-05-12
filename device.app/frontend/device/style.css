@@ -1,0 +1,319 @@
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #3c067d;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-inline-size: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  block-size: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #6f4404;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      color: #213547;
+      background-color: #f5ebeb;
+  }
+  a:hover {
+      color: #040c9e;
+  }
+  button, :hover {
+      background-color: #eadc8e;
+  }
+  button {
+     background-color: #8576ec;
+  } 
+ }
+
+/* this is use for Device List */
+#device-list-title {
+  text-align: center;
+  margin-block-start: 0;
+  font-size: 55px; 
+  font-weight: bold;
+}
+table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  margin-block-start: 20px; /*we can adjust space of the table as needed */
+}
+th, td {
+  border: 1px solid #161515; 
+  text-align: start;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.header {
+  background-color: #333; 
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  inline-size:100%;
+  transition: background-color 0.3s; 
+}
+.header:hover {
+  background-color: #c98d2c; 
+}
+.container {
+  inline-size: 80%;
+  margin: auto;
+}
+.table-container {
+  background-color: #f5ebeb; 
+  inline-size: 100%; 
+  margin: auto; 
+}
+
+.title {
+  background-color: #8e6a06; 
+  display: inline-block; 
+  padding: 70px, 50px; 
+  color: white; 
+  text-align: center;
+}
+#devices-table {
+  inline-size: 100%;
+  margin-block-start: 20px;
+  border-collapse: collapse;
+}
+#devices-table, #devices-table th, #devices-table td {
+  border: 1px solid #ddd;
+}
+#devices-table th, #devices-table td {
+  padding: 10px;
+  text-align: start;
+}
+#devices-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+#devices-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.main-header {
+  position: fixed;
+  display: flex;
+  justify-content: center; /* Aligns content horizontally to the center */
+  align-items: center; /* Aligns content vertically to the center */
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  inline-size: 100%;
+  background-color: #654a05; /* Example background color */
+  color: white;
+  padding: 10px 0;
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+body {
+  padding-block-start: 20px; /* Adjust this value based on the height of the header */
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  block-size: 100vh; 
+}
+.links-list li {
+  margin: 10px 0; /* we can adds some space between the list items */
+  font-size: 24px; /* we can adjust the font size as needed */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  block-size: 100vh;
+  background-color: #f5f5f5;
+}
+h1 {
+  color: #333;
+  margin-block-end: 20px;
+}
+
+#delete-device-form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#delete-device-form label,
+#delete-device-form input,
+#delete-device-form button {
+  display: block;
+  inline-size: 100%;
+  margin-block-end: 10px;
+}
+
+#delete-device-form button {
+  background-color: #e8c578;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#delete-device-form button:hover {
+  background-color: #ff4d4d;
+}
+
+/*This is for device Details*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  block-size: 100vh;
+  text-align: center;
+}
+
+.details-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+  inline-size: 50%;
+  max-inline-size: 500px;
+  font-size: 23px;
+}
+
+.details-card p {
+  margin: 10px 0;
+}
+
+/* This for edit Devices */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  block-size: 100vh;
+  text-align: center;
+}
+
+.form-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+  inline-size: 50%;
+  max-inline-size: 500px;
+}
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card label,
+.form-card input,
+.form-card button {
+  margin-block-end: 0px;
+}
+
+.form-card button {
+  background-color: #bc8e06; /* Green background for the update button */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-block-start: 20px;
+}
+
+.form-card button:hover {
+  background-color: #4CAF50; /* Darker green on hover */
+}
+form {
+  font-size: 20px; /* Increase or decrease the font size as needed */
+}
+
+/* Adjusting the size of input boxes */
+input[type="text"], input[type="number"] {
+  inline-size: 80%; 
+  padding: 10px; /* Add padding to increase the height of the input boxes */
+  font-size: 15px; 
+  margin-block-end: 10px; /*used to increase the bottom margin to create more space between the boxes */
+}
+#edit-device-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#edit-device-form button {
+  inline-size: auto; /* To adjust the width as needed */
+  margin: 0 auto; /* This will also help in centering the button if the width is specified */
+}
+
+
+

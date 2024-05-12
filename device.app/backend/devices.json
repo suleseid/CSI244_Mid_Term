@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "iMac by Apple",
+        "description": "Apple iMac, a powerful desktop computer.",
+        "manufactureyear": 2022,
+        "location": "Manufacturer: Apple",
+        "capacity": "2TB SSD"
+    },
+    {
+        "id": 2,
+        "title": "Galaxy by Samsung",
+        "description": "Samsung Galaxy tablet with 1TB SSD.",
+        "manufactureyear": 2024,
+        "location": "Manufacturer: Samsung",
+        "capacity": "1TB SSD"
+    },
+    {
+        "id": 3,
+        "title": "Galaxy by Samsung",
+        "description": "Samsung Galaxy tablet with 1TB SSD.",
+        "manufactureyear": 2005,
+        "location": "Manufacturer: Samsung",
+        "capacity": "1TB SSD"
+    },
+    {
+        "id": 4,
+        "title": "iPhone 11 by Apple",
+        "description": "Apple iPhone 11 with 2TB SSD.",
+        "manufactureyear": 2022,
+        "location": "Manufacturer: Apple",
+        "capacity": "2TB SSD"
+    },
+    {
+        "id": 5,
+        "title": "Paperwhite by Amazon",
+        "description": "Amazon Paperwhite e-reader with 8GB capacity.",
+        "manufactureyear": 2020,
+        "location": "Manufacturer: Amazon",
+        "capacity": "8GB"
+    },
+    {
+        "id": 6,
+        "title": "iPhone 15 by Apple",
+        "description": "Apple iPhone 15 with 2TB SSD.",
+        "manufactureyear": 2025,
+        "location": "Manufacturer: Apple",
+        "capacity": "2TB SSD"
+    },
+    {
+        "id": 7,
+        "title": "Galaxy by Samsung",
+        "description": "Samsung Galaxy smartphone with 6TB SSD.",
+        "manufactureyear": 2023,
+        "location": "Manufacturer: Samsung",
+        "capacity": "6TB SSD"
+    },
+    {
+        "id": 8,
+        "title": "iPhone 14 by Apple",
+        "description": "Apple iPhone 14 with 1.5TB SSD.",
+        "manufactureyear": 2021,
+        "location": "Manufacturer: Apple",
+        "capacity": "1.5TB SSD"
+    },
+    {
+        "id": 9,
+        "title": "Galaxy by Samsung",
+        "description": "Samsung Galaxy tablet with 1TB SSD.",
+        "manufactureyear": 2023,
+        "location": "Manufacturer: Samsung",
+        "capacity": "1TB SSD"
+    },
+    {
+        "id": 10,
+        "title": "iPhone 9 by Apple",
+        "description": "Apple iPhone 9 with 1.5TB SSD.",
+        "manufactureyear": 2005,
+        "location": "Manufacturer: Apple",
+        "capacity": "1.5TB SSD"
+    }
+]
